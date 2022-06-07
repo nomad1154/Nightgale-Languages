@@ -1,3 +1,14 @@
-Alphabets:
+Settings:
   Dwarvish:
+    Enabled: true
+    Distance: 10
+    Permission: lang.dwarvish
+  Elvish:
+    Enabled: true
+    Distance: 10
+    Permission: lang.elvish
+  Thieves Cant:
+    Enabled: true
+    Distance: 10
+    Permission: lang.thieves
 

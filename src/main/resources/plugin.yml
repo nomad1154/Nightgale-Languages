@@ -1,10 +1,21 @@
-name: Langchat
-version: '${project.version}'
+name: NightgaleLanguages
+version: ''
 main: com.nomad.langchat.Main
 api-version: 1.18
 authors: [ Nomad ]
 description: A plugin to use fantasy languages in text chat
+softdepend: [PlaceholderAPI]
 commands:
   dwarvish:
-    permission: lang.dwarvish
     permission-message: You do not speak this language
+    aliases:
+      - dw
+  elvish:
+    permission-message: You do not speak this language
+    aliases:
+      - el
+  ThievesCant:
+    permission-message: You do not know this skill
+    aliases:
+      - th
+      - thieves
